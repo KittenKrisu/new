@@ -1,0 +1,110 @@
+body, html{
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+    width: 50%;
+    padding-top: 500px;
+    /*change the color of the text for the title*/
+    color: ;
+}
+.titlebox{
+    height: 100%;
+    width: 100%;
+    /*background color for title page*/
+    /*for color just look up a html color gen and copy and past that, for image do url(/imgs/nameoffile)*/
+    background: ;
+}
+.titlebox2{
+    height: 100%;
+    width: 100%;
+    /*background for intro page*/
+    background: ;
+}
+.hr{
+    width: 20%;
+    border: 0.5px solid;
+}
+.quote{
+    font-style: italic;
+    /*text color of intro*/
+    color: ;
+}
+.centerquote{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    text-align: center;
+    padding: 80px;
+}
+.poemtitle{
+    text-align: center;
+}
+.poem{
+    line-height: 2;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.titlepage{
+	padding-top: 500px;
+	padding-bottom: 100px;
+    background-image: url('imgs/light-in-the-blue-universe-53563-1920x1200.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #fff;
+}
+#center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+}
+.essay{
+    line-height: 2;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-indent: 40px;
+    
+}
+.essaytitle{
+    text-align: center;
+}
+/*for color just look up a html color gen and copy and past that, for image do url(/imgs/nameoffile)*/
+.one{
+}
+.two{
+    background:;
+}
+.three{
+    background:;
+}
+.four{
+    background:;
+}
+.five{
+    background:;
+}
+
+.button{
+    /*u can change the background color and text color and the border color based on ur background image of the thing*/
+    background-color:rgba(0, 0, 0, 0.205) ;
+    color: white;
+    border-radius: 5px;
+    border: white solid;
+    padding: 10px;
+    transform: translateY(400%);
+    font-size: 30px;
+}
